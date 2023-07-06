@@ -21,5 +21,41 @@
     font-size: 12px;
 }
 .naav{
-    padding-right:10px ;
+    padding-right: 10px;
+}
+
+.banner{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    background-image: url("./images/background.png"), linear-gradient( 45deg, black, rgb(65, 55, 55));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-logo{
+    height: 200px;
+    width: 200px;
+}
+.info{
+    color: white;
+}
+.h1{
+    font-size: 36px;
+}
+.p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 8px;
+    border-radius: 2px;
+    width: 80px;
 }
