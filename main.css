@@ -59,3 +59,20 @@
     border-radius: 2px;
     width: 80px;
 }
+.section{
+    height: 200px;
+}
+.section1{
+    
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.photo{
+    height: 200px;
+    width: 200px;
+}
+.h1{
+    text-align: center;
+    margin: 20px;
+}
