@@ -60,7 +60,7 @@
     width: 80px;
 }
 .section{
-    height: 200px;
+    height: 280px;
 }
 .section1{
     
@@ -75,4 +75,55 @@
 .h1{
     text-align: center;
     margin: 20px;
+}
+.service{
+    background-color: rgb(53, 50, 50);
+    background-image: url("./images/background.png"), linear-gradient(45deg, black, rgb(65, 55, 55));
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.box{
+    background-color:black;
+    color: white;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 4px 4px 15px gray;
+    border: none;
+    border-radius: 5px;
+}
+.btn2{
+    margin-top: 10px;
+    font-size: 8px;
+    padding: 5px 10px ;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(65, 55, 55);
+    color: white;
+}
+.h{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    font-size: 8px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
